@@ -1,4 +1,4 @@
-FROM php:7.3-fpm
+FROM php-fpm:7.3.18
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends vim curl debconf subversion git apt-transport-https apt-utils \
