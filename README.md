@@ -25,6 +25,8 @@ make symfony
 ### To build your containers and environment
 
 ```
+cd web
+
 make up
 
 or
